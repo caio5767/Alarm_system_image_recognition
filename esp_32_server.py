@@ -1,8 +1,6 @@
 #https://docs.micropython.org/en/latest/esp32/quickref.html
 #https://docs.micropython.org/en/latest/library/index.html
 
-#olá pequeno B4G0, bem vindo ao meu quarto.
-
 #libraries
 import machine
 import time
@@ -12,7 +10,7 @@ import math
 import network
 import socket
 
-#modulos
+#modules
 buzzer = machine.PWM(machine.Pin(13))
 sensor = machine.Pin(14, machine.Pin.IN)
 #adaptar motor e definiçoes de conjuntos de moves
